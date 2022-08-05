@@ -47,7 +47,7 @@
 }
 
 .gallery__item {
-  flex-basis: calc((100% - $indent * 2) / 3);
+  @include flex-basis(3);
 }
 
 .gallery__link {
